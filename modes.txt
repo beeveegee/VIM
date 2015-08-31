@@ -1,0 +1,31 @@
+Two modes in VIM: Command & Insert
+
+Command Mode
+- move around the file, delete text, etc
+
+Insert Mode
+- insert text
+
+Change modes
+- Command -> Insert
+  - use a, A, i, I, o, O
+- Insert -> Command
+  - esc
+
+ a
+  - edit text following current cursor position from command mode
+ 
+ A (shift a)
+  - edit text at the end of the current line
+
+ i
+  - insert text before the current cursor position
+
+ I (shift i)
+  - insert text at the beginning of the cursor line
+
+ o
+  - creates a space following the current line and starts text editing
+
+ O (shift o)
+  - creates a space before the current line and starts test editing
